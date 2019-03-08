@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon ./src/index.js",
-    "heroku-postbuild": "node ./src/index.js",
-    "start": "node ./src/index.js"
+    "server": "nodemon index.js",
+    "heroku-postbuild": "node index.js",
+    "start": "node index.js"
   },
   "license": "MIT",
   "dependencies": {
